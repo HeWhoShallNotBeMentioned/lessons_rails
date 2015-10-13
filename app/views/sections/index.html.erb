@@ -1,0 +1,11 @@
+<h1>Sections</h1>
+
+<ul>
+  <% @sections.each do |section| %>
+    <li><%= link_to section.name, section_path(section) %></li>
+  <% end %>
+</ul>
+
+<hr>
+
+<%= link_to "New Section", new_section_path %>

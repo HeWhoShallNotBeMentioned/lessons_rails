@@ -62,6 +62,7 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    hirb (0.7.3)
     i18n (0.7.0)
     jquery-rails (4.0.5)
       rails-dom-testing (~> 1.0)
@@ -174,6 +175,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails
+  hirb
   jquery-rails
   launchy
   pg
